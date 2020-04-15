@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+body{
+	background: #222;
+	overflow: hidden;
+	font-family:'Chivo', sans-serif;
+}
+#main{
+	background:#fff;
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%,-50%);
+	border-radius:100px;
+	text-align: center;	
+	font-weight: 'normal';
+	padding:2px;
+	user-select:none;
+
+}
+#main > b{
+    transform: translate(-50%,-50%);
+	top:50%;
+	position:absolute;
+	width:100px;
+}
+
+#hd{
+	position: absolute;
+	left:10%;
+	top:10%;
+	background: #222;
+	color:#fff;
+	display:none;
+	width:0px;
+	overflow: hidden;
+	height : 40px;
+	padding:5px;
+	font-size:40px;
+	text-overflow: clip;
+	white-space: nowrap;
+}
+
+#sub{
+	position: absolute;
+	left:15%;
+	top:30%;
+	background: #222;
+	color:#fff;
+	display:none;
+	width:0px;
+	overflow: hidden;
+	height : 20px;
+	padding:5px;
+	font-size:20px;
+	text-overflow: clip;
+	white-space: nowrap;
+}
+#sub2{
+	position: absolute;
+	left:15%;
+	top:34%;
+	background: #222;
+	color:#fff;
+	display:none;
+	width:0px;
+	overflow: hidden;
+	height : 20px;
+	padding:5px;
+	font-size:20px;
+	text-overflow: clip;
+	white-space: nowrap;
+}
+
+#links{
+	position: absolute;
+	background: #222;
+	display:none;
+	width:0px;
+	overflow: hidden;
+	height : 20px;
+	padding:5px;
+	text-overflow: clip;
+	white-space: nowrap;	
+	top: 50%;
+	left: 20%;
+	text-align: center;	
+	
+}
+a{
+	font-size:20px;
+	padding:5px;
+	color:#fff;
+	text-decoration: none;
+}
+a:hover{
+	color:#fff;
+}
+
