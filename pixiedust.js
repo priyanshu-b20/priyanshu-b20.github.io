@@ -33,7 +33,7 @@ $(document).ready(() => {
 		})
 		$('#main').animate({
 			'font-size' : '80vh',
-			'opacity' : '0.05'
+			'opacity' : '0.2'
 		})
 	},2500)
 	
@@ -72,7 +72,7 @@ $(document).ready(() => {
 	setTimeout(() => {
 		$('#links').css('background','none')
 		$('div > a').css('color','#222')
-		$('div > a:hover').css('color','#fff')
+//		$('div > a').hover(() => $(this).css('color','#fff'))
 	},3800)
 
 	setTimeout(() => {
@@ -83,5 +83,9 @@ $(document).ready(() => {
 			'margin' : '10px',
 		})
 	},4000)
+	
+	// setTimeout(() => {
+		// $('body').append('<div id="follow"><img src="li.png"/><img src="gh.png"/></div>')
+	// },4250)
 	
 })

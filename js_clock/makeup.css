@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+	background:  #f4c2c2 ;
+}
+#things{
+	font-family: 'Anton';
+	font-size: 300px;
+	text-align: center;
+	margin:auto;
+	text-shadow: 10px 10px  #222;
+	color:#dd1f58;
+	transition: .75s ease;
+}
+div > input{
+	font-family: 'Anton';
+	font-size: 20px;
+	background: #dd1f58;
+	color: #222;
+	padding:10px;
+	border: solid 5px #222;
+	border-radius:15px;
+	margin: 10px;
+	transition: .75s ease;
+	outline:none;
+}
+
+div > input[value=lap]{
+	display: none;
+	margin-right: 0px;
+	border-right: 1px;
+	border-radius: 15px 0px 0px 15px
+}
+div > input[value=stop], div > input[value=start]{
+	display: none;
+	margin-left: 0px;
+	border-left: none;
+	border-radius: 0px 15px 15px 0px 
+}
+
+div > input[value=stop]:focus,div > input[value=stop]:hover,
+div > input[value=start]:focus,div > input[value=start]:hover{
+	background: #f4c2c2;
+	border: solid 5px #dd1f58;
+	border-left: none;
+	color: #dd1f58;
+	text-shadow: 1px 1px 1px 1px #222;
+	cursor: pointer;
+}
+div > input[value=lap]:focus,div > input[value=lap]:hover{
+	background: #f4c2c2;
+	border: solid 5px #dd1f58;
+	border-right: none;
+	color: #dd1f58;
+	text-shadow: 1px 1px 1px 1px #222;
+	cursor: pointer;	
+}
+div > input:focus,div > input:hover{
+	background: #f4c2c2;
+	border: solid 5px #dd1f58;
+	color: #dd1f58;
+	text-shadow: 1px 1px 1px 1px #222;
+	cursor: pointer;
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	display: none;
+}
+ol{
+	font-family: 'Roboto', sans-serif;
+	height: 100px;
+	width: 100px;
+	overflow: auto;
+	display: none;
+}
+input[placeholder]{
+	background:#f4c2c2;
+	outline: none;
+	padding: 5px;
+	text-align: center;
+	border:solid 1px #222;
+	display: none;
+}
