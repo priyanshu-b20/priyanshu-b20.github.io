@@ -147,7 +147,7 @@ var ballc = 3;
             }
             else{
                 background(0);
-                var str = name+" your score: "+score;
+                var str = name+" your score "+score;
                 text(str,width/2-textWidth(str)/2,height/2)
             }
         }
